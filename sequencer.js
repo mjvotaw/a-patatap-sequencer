@@ -135,7 +135,7 @@ function setupSequenceContainer()
 function buildSequencer()
 {
 	
-	$('head').append('<link rel="stylesheet" href="http://localhost/patatap/sequencer.css?time=' + new Date().getTime() +' " type="text/css" />');
+	$('head').append('<link rel="stylesheet" href=' + baseGit + '"/sequencer.css" type="text/css" />');
 	var container = $("<div></div>");
 	container.attr("id", "sequencer");
 	$("body").append(container);
