@@ -1,6 +1,6 @@
 How do I use this?
 
-Go to patatap.com
+Go to [http://www.patatap.com](www.patatap.com)
 Paste this into the js console:
 ```
 var script = $("<script></script");
